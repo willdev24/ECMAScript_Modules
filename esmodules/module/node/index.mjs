@@ -2,7 +2,7 @@ import CurrencyManager from "../shared/currencyManagert.mjs"
 
 
 const update = (value) => {
-  // console.log(value)
+   console.log(value)
 }
 
 const inputMonitor = (value)=> update(CurrencyManager.format(value))
